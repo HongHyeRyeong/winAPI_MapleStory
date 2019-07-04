@@ -1,0 +1,502 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00. Maingame">
+      <UniqueIdentifier>{2441b070-ef82-46c5-b018-0f3bb357add1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object">
+      <UniqueIdentifier>{06abbcfc-5282-4107-9bef-f77592e419a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Line">
+      <UniqueIdentifier>{d1efcd49-4607-4f0d-860c-4d388611a7f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Scene">
+      <UniqueIdentifier>{88885d8a-18eb-4c7d-9ef5-cc1f86a11291}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Managers">
+      <UniqueIdentifier>{4409bdf8-3345-4f0d-9246-e8d46ecb1cd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Default">
+      <UniqueIdentifier>{c5d169ce-175d-41c1-a343-272be42b7644}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="100. Client">
+      <UniqueIdentifier>{d07b61c9-c5f1-46f0-812d-7d9054309a86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object\01. Player">
+      <UniqueIdentifier>{5ea1f855-cea1-44d5-9e43-0d61c9320be3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object\00. Obj">
+      <UniqueIdentifier>{b0f78c7d-099e-4c90-a1e5-5655abd24609}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object\03. Mouse">
+      <UniqueIdentifier>{3d17609d-3210-433e-8c1d-1ea43ffede41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object\04. Skills">
+      <UniqueIdentifier>{48cd268a-2a72-44df-b2d5-4820eedd0f3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object\06. Fonts">
+      <UniqueIdentifier>{363b2845-311e-4f86-a3da-ab808150a668}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object\07. NPC">
+      <UniqueIdentifier>{8aec16a2-21a6-42ba-8180-496b26e88849}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object\02. Monster">
+      <UniqueIdentifier>{8b78042d-8930-49f7-92a3-59e366d9707d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object\02. Monster\00. Green">
+      <UniqueIdentifier>{b345cf97-b3c0-40ea-82bf-9ac3a22d02e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object\04. Skills\00. Shoot">
+      <UniqueIdentifier>{51097f39-9fb2-45d6-ab99-ad5f116a9567}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object\04. Skills\01. Swing">
+      <UniqueIdentifier>{50c63d3c-5e49-4420-a757-268481793721}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object\04. Skills\02. Dragon">
+      <UniqueIdentifier>{c18057a4-ebb9-4482-9242-160cd2a4332d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object\04. Skills\03. Fire">
+      <UniqueIdentifier>{f0860be4-2a70-4480-8457-33ca0e4b762f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object\04. Skills\04. Wings">
+      <UniqueIdentifier>{5a203e2f-a729-45aa-93d3-f713dfeb5548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object\04. Skills\00. Shoot\00. Arrow">
+      <UniqueIdentifier>{a0408496-f735-4b5c-9b1c-40e10e1ec437}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object\04. Skills\01. Swing\00. SwingEffect">
+      <UniqueIdentifier>{2fb68055-d1c5-4e63-aa3f-d333e2b42e7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object\04. Skills\02. Dragon\00. DragonEffect">
+      <UniqueIdentifier>{44c963ac-7969-4cda-864f-33dfbfddeb65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object\07. NPC\00. Leaf">
+      <UniqueIdentifier>{2023c225-59af-4b46-bb12-6d65a12770b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object\07. NPC\01. Communication">
+      <UniqueIdentifier>{a27b6e40-8df3-4373-876f-56b4669417db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object\07. NPC\01. Communication\00. LeafCommunication">
+      <UniqueIdentifier>{024d91b6-0518-44d1-842d-37cc98464e92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Scene\00. Logo">
+      <UniqueIdentifier>{530b5f92-3a84-4b4f-b7ff-73d9ac942d03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Scene\02. Field">
+      <UniqueIdentifier>{f0a6de2d-5561-42f6-b8c5-0d875ee053c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Scene\03. Stage">
+      <UniqueIdentifier>{0941f907-4d75-4da3-9319-6be21dcac0ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Managers\00. AbstractFactory">
+      <UniqueIdentifier>{d8c0eccf-b9fb-4299-a15d-db18f394e854}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Managers\01. CollisionMgr">
+      <UniqueIdentifier>{02cbe7d0-d0d8-42eb-ab3e-72c4e13f5cbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Managers\02. ObjectMgr">
+      <UniqueIdentifier>{ff49c112-40a0-45d2-b26c-1692c210310f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Managers\03. MathMgr">
+      <UniqueIdentifier>{d085781c-044d-4033-9cb2-9e57097f6e8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Managers\04. SoundMgr">
+      <UniqueIdentifier>{2c396056-8cdd-4dbf-8ffc-73b3ad8f401b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Managers\05. BitMgr">
+      <UniqueIdentifier>{4753f8c3-c7e1-4e15-84cc-7035946d3af2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Managers\06. SceneMgr">
+      <UniqueIdentifier>{f1f188ba-91cc-48c6-9470-25c2fa856c5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Managers\07. KeyMgr">
+      <UniqueIdentifier>{4d71b0a9-2d56-4677-8c1a-2b0941362274}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Managers\08. LineMgr">
+      <UniqueIdentifier>{33880240-e609-4f9a-adba-ad289b3e2568}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98. Managers\05. BitMgr\00. MyBmp">
+      <UniqueIdentifier>{a79c5aa2-246b-4745-bd41-3c5067de9b22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Scene\01. MakingPlayer">
+      <UniqueIdentifier>{5e3c39de-ff0b-4819-adf9-0cb4305f6de0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object\08. Floor">
+      <UniqueIdentifier>{76e0dfb2-bf80-4fa6-972b-11c7649b9d71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object\08. Floor\00. First">
+      <UniqueIdentifier>{d54bf3e5-189e-458a-a7d3-82964e3410dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object\08. Floor\01. Second">
+      <UniqueIdentifier>{ce3d3a6e-3a1c-4e12-80ba-4659e77348e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object\08. Floor\02. Third">
+      <UniqueIdentifier>{9d54332b-2c0d-4391-b23f-0298b7f1b9d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object\08. Floor\04. Fifth">
+      <UniqueIdentifier>{d2018ee2-b996-495e-b3de-2e89881af223}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object\08. Floor\03. Fourth">
+      <UniqueIdentifier>{08227a9a-dd3e-4a37-9e4e-f7e6d34dc72f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object\11. UI">
+      <UniqueIdentifier>{1229697e-592b-4380-a723-52dc66aacb5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object\11. UI\00. HPBar">
+      <UniqueIdentifier>{75d18480-f8b1-4f88-9b5a-90dcae73d024}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object\11. UI\01. ExpBar">
+      <UniqueIdentifier>{b0917dc1-78c0-42d4-aafc-ca499fdf46da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object\11. UI\02. MPBar">
+      <UniqueIdentifier>{67588006-4124-4f3b-94d0-04731bc9527a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object\12. Rope">
+      <UniqueIdentifier>{74c47821-4d0f-4808-b03f-f7137e6e5d1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object\13. Box">
+      <UniqueIdentifier>{68edeb90-37be-4427-ad1b-7a3e8e12ec16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object\11. UI\03. Party">
+      <UniqueIdentifier>{bed6a1c8-6365-4e06-ba1d-8969128ce8e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object\05. Gold">
+      <UniqueIdentifier>{7cc322a7-e1ac-4918-b68e-65f1992f0c8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Object\11. UI\04. Result">
+      <UniqueIdentifier>{06c20db3-aae5-4030-aa7c-c163c82f1b0c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>100. Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Maingame.h">
+      <Filter>00. Maingame</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>02. Line</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>03. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>01. Object\01. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>01. Object\00. Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>01. Object\03. Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>01. Object\02. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Green.h">
+      <Filter>01. Object\02. Monster\00. Green</Filter>
+    </ClInclude>
+    <ClInclude Include="Shoot.h">
+      <Filter>01. Object\04. Skills\00. Shoot</Filter>
+    </ClInclude>
+    <ClInclude Include="Dragon.h">
+      <Filter>01. Object\04. Skills\02. Dragon</Filter>
+    </ClInclude>
+    <ClInclude Include="Fire.h">
+      <Filter>01. Object\04. Skills\03. Fire</Filter>
+    </ClInclude>
+    <ClInclude Include="Wing.h">
+      <Filter>01. Object\04. Skills\04. Wings</Filter>
+    </ClInclude>
+    <ClInclude Include="Arrow.h">
+      <Filter>01. Object\04. Skills\00. Shoot\00. Arrow</Filter>
+    </ClInclude>
+    <ClInclude Include="Swing.h">
+      <Filter>01. Object\04. Skills\01. Swing</Filter>
+    </ClInclude>
+    <ClInclude Include="SwingEffect.h">
+      <Filter>01. Object\04. Skills\01. Swing\00. SwingEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="DragonEffect.h">
+      <Filter>01. Object\04. Skills\02. Dragon\00. DragonEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>01. Object\06. Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="Commuication.h">
+      <Filter>01. Object\07. NPC\01. Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="Leaf.h">
+      <Filter>01. Object\07. NPC\00. Leaf</Filter>
+    </ClInclude>
+    <ClInclude Include="LeafCommunication.h">
+      <Filter>01. Object\07. NPC\01. Communication\00. LeafCommunication</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerExp.h">
+      <Filter>01. Object\11. UI\01. ExpBar</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerHP.h">
+      <Filter>01. Object\11. UI\00. HPBar</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerMP.h">
+      <Filter>01. Object\11. UI\02. MPBar</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC.h">
+      <Filter>01. Object\07. NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Rope.h">
+      <Filter>01. Object\12. Rope</Filter>
+    </ClInclude>
+    <ClInclude Include="FifthFloor.h">
+      <Filter>01. Object\08. Floor\04. Fifth</Filter>
+    </ClInclude>
+    <ClInclude Include="FirstFloor.h">
+      <Filter>01. Object\08. Floor\00. First</Filter>
+    </ClInclude>
+    <ClInclude Include="FourthFloor.h">
+      <Filter>01. Object\08. Floor\03. Fourth</Filter>
+    </ClInclude>
+    <ClInclude Include="SecondFloor.h">
+      <Filter>01. Object\08. Floor\01. Second</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdFloor.h">
+      <Filter>01. Object\08. Floor\02. Third</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>01. Object\11. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Field.h">
+      <Filter>03. Scene\02. Field</Filter>
+    </ClInclude>
+    <ClInclude Include="Logo.h">
+      <Filter>03. Scene\00. Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage1.h">
+      <Filter>03. Scene\03. Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory.h">
+      <Filter>98. Managers\00. AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMgr.h">
+      <Filter>98. Managers\01. CollisionMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjMgr.h">
+      <Filter>98. Managers\02. ObjectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MathMgr.h">
+      <Filter>98. Managers\03. MathMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundMgr.h">
+      <Filter>98. Managers\04. SoundMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="BitmapMgr.h">
+      <Filter>98. Managers\05. BitMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>98. Managers\06. SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>98. Managers\07. KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="LineMgr.h">
+      <Filter>98. Managers\08. LineMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MyBmp.h">
+      <Filter>98. Managers\05. BitMgr\00. MyBmp</Filter>
+    </ClInclude>
+    <ClInclude Include="MakingPlayer.h">
+      <Filter>03. Scene\01. MakingPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="FloorBox.h">
+      <Filter>01. Object\13. Box</Filter>
+    </ClInclude>
+    <ClInclude Include="Party.h">
+      <Filter>01. Object\11. UI\03. Party</Filter>
+    </ClInclude>
+    <ClInclude Include="Gold.h">
+      <Filter>01. Object\05. Gold</Filter>
+    </ClInclude>
+    <ClInclude Include="Skill.h">
+      <Filter>01. Object\04. Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="Result.h">
+      <Filter>01. Object\11. UI\04. Result</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>100. Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Maingame.cpp">
+      <Filter>00. Maingame</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>02. Line</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>03. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>01. Object\01. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>01. Object\00. Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>01. Object\03. Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>01. Object\02. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Green.cpp">
+      <Filter>01. Object\02. Monster\00. Green</Filter>
+    </ClCompile>
+    <ClCompile Include="Shoot.cpp">
+      <Filter>01. Object\04. Skills\00. Shoot</Filter>
+    </ClCompile>
+    <ClCompile Include="Dragon.cpp">
+      <Filter>01. Object\04. Skills\02. Dragon</Filter>
+    </ClCompile>
+    <ClCompile Include="Fire.cpp">
+      <Filter>01. Object\04. Skills\03. Fire</Filter>
+    </ClCompile>
+    <ClCompile Include="Wing.cpp">
+      <Filter>01. Object\04. Skills\04. Wings</Filter>
+    </ClCompile>
+    <ClCompile Include="Arrow.cpp">
+      <Filter>01. Object\04. Skills\00. Shoot\00. Arrow</Filter>
+    </ClCompile>
+    <ClCompile Include="Swing.cpp">
+      <Filter>01. Object\04. Skills\01. Swing</Filter>
+    </ClCompile>
+    <ClCompile Include="SwingEffect.cpp">
+      <Filter>01. Object\04. Skills\01. Swing\00. SwingEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="DragonEffect.cpp">
+      <Filter>01. Object\04. Skills\02. Dragon\00. DragonEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>01. Object\06. Fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="Commuication.cpp">
+      <Filter>01. Object\07. NPC\01. Communication</Filter>
+    </ClCompile>
+    <ClCompile Include="Leaf.cpp">
+      <Filter>01. Object\07. NPC\00. Leaf</Filter>
+    </ClCompile>
+    <ClCompile Include="LeafCommunication.cpp">
+      <Filter>01. Object\07. NPC\01. Communication\00. LeafCommunication</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerExp.cpp">
+      <Filter>01. Object\11. UI\01. ExpBar</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerMP.cpp">
+      <Filter>01. Object\11. UI\02. MPBar</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerHP.cpp">
+      <Filter>01. Object\11. UI\00. HPBar</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC.cpp">
+      <Filter>01. Object\07. NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="Rope.cpp">
+      <Filter>01. Object\12. Rope</Filter>
+    </ClCompile>
+    <ClCompile Include="FifthFloor.cpp">
+      <Filter>01. Object\08. Floor\04. Fifth</Filter>
+    </ClCompile>
+    <ClCompile Include="FirstFloor.cpp">
+      <Filter>01. Object\08. Floor\00. First</Filter>
+    </ClCompile>
+    <ClCompile Include="FourthFloor.cpp">
+      <Filter>01. Object\08. Floor\03. Fourth</Filter>
+    </ClCompile>
+    <ClCompile Include="SecondFloor.cpp">
+      <Filter>01. Object\08. Floor\01. Second</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdFloor.cpp">
+      <Filter>01. Object\08. Floor\02. Third</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>01. Object\11. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Field.cpp">
+      <Filter>03. Scene\02. Field</Filter>
+    </ClCompile>
+    <ClCompile Include="Logo.cpp">
+      <Filter>03. Scene\00. Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage1.cpp">
+      <Filter>03. Scene\03. Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionMgr.cpp">
+      <Filter>98. Managers\01. CollisionMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjMgr.cpp">
+      <Filter>98. Managers\02. ObjectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MathMgr.cpp">
+      <Filter>98. Managers\03. MathMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundMgr.cpp">
+      <Filter>98. Managers\04. SoundMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="BitmapMgr.cpp">
+      <Filter>98. Managers\05. BitMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>98. Managers\06. SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>98. Managers\07. KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="LineMgr.cpp">
+      <Filter>98. Managers\08. LineMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MyBmp.cpp">
+      <Filter>98. Managers\05. BitMgr\00. MyBmp</Filter>
+    </ClCompile>
+    <ClCompile Include="MakingPlayer.cpp">
+      <Filter>03. Scene\01. MakingPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="FloorBox.cpp">
+      <Filter>01. Object\13. Box</Filter>
+    </ClCompile>
+    <ClCompile Include="Party.cpp">
+      <Filter>01. Object\11. UI\03. Party</Filter>
+    </ClCompile>
+    <ClCompile Include="Gold.cpp">
+      <Filter>01. Object\05. Gold</Filter>
+    </ClCompile>
+    <ClCompile Include="Skill.cpp">
+      <Filter>01. Object\04. Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="Result.cpp">
+      <Filter>01. Object\11. UI\04. Result</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico">
+      <Filter>99. Default</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>99. Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>99. Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

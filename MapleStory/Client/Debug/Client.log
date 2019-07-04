@@ -1,0 +1,94 @@
+﻿  stdafx.cpp
+  Arrow.cpp
+  BitmapMgr.cpp
+  Client.cpp
+  CollisionMgr.cpp
+  Commuication.cpp
+  Party.cpp
+C:\Users\yjm12\Desktop\혜룡\공부\2018_NetworkGame_MapleStory\MapleStory\Client\Party.cpp(75,21): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\yjm12\Desktop\혜룡\공부\2018_NetworkGame_MapleStory\MapleStory\Client\Party.cpp(86,1): warning C4996:  'mbstowcs': This function or variable may be unsafe. Consider using mbstowcs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Dragon.cpp
+  DragonEffect.cpp
+  Field.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdlib.h(927): message :  'mbstowcs' 선언을 참조하십시오.
+  FifthFloor.cpp
+  Fire.cpp
+  FirstFloor.cpp
+  FloorBox.cpp
+  Font.cpp
+  FourthFloor.cpp
+  Gold.cpp
+  Green.cpp
+  KeyMgr.cpp
+  Leaf.cpp
+  LeafCommunication.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  Line.cpp
+  LineMgr.cpp
+  Logo.cpp
+C:\Users\yjm12\Desktop\혜룡\공부\2018_NetworkGame_MapleStory\MapleStory\Client\Field.cpp(71,20): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\yjm12\Desktop\혜룡\공부\2018_NetworkGame_MapleStory\MapleStory\Client\Logo.cpp(220,1): warning C4996:  'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  Maingame.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winsock2.h(1831): message :  'inet_addr' 선언을 참조하십시오.
+C:\Users\yjm12\Desktop\혜룡\공부\2018_NetworkGame_MapleStory\MapleStory\Client\Maingame.cpp(81,20): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\yjm12\Desktop\혜룡\공부\2018_NetworkGame_MapleStory\MapleStory\Client\Maingame.cpp(44,1): warning C4996:  'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  MakingPlayer.cpp
+  MathMgr.cpp
+  Monster.cpp
+  Mouse.cpp
+  MyBmp.cpp
+  NPC.cpp
+  Obj.cpp
+  ObjMgr.cpp
+  Player.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(243): message :  'freopen' 선언을 참조하십시오.
+C:\Users\yjm12\Desktop\혜룡\공부\2018_NetworkGame_MapleStory\MapleStory\Client\Player.cpp(183,32): warning C4838:  'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\yjm12\Desktop\혜룡\공부\2018_NetworkGame_MapleStory\MapleStory\Client\Player.cpp(183,32): warning C4244:  '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\yjm12\Desktop\혜룡\공부\2018_NetworkGame_MapleStory\MapleStory\Client\Player.cpp(184,24): warning C4838:  'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\yjm12\Desktop\혜룡\공부\2018_NetworkGame_MapleStory\MapleStory\Client\Player.cpp(184,24): warning C4244:  '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\yjm12\Desktop\혜룡\공부\2018_NetworkGame_MapleStory\MapleStory\Client\Player.cpp(185,24): warning C4838:  'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\yjm12\Desktop\혜룡\공부\2018_NetworkGame_MapleStory\MapleStory\Client\Player.cpp(185,24): warning C4244:  '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\yjm12\Desktop\혜룡\공부\2018_NetworkGame_MapleStory\MapleStory\Client\Player.cpp(186,24): warning C4838:  'float'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\yjm12\Desktop\혜룡\공부\2018_NetworkGame_MapleStory\MapleStory\Client\Player.cpp(186,24): warning C4244:  '초기화 중': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\yjm12\Desktop\혜룡\공부\2018_NetworkGame_MapleStory\MapleStory\Client\Player.cpp(854,12): warning C4553:  '==': 식의 결과가 사용되지 않습니다. '='을(를) 의도했습니까?
+  PlayerExp.cpp
+  PlayerHP.cpp
+  PlayerMP.cpp
+  Result.cpp
+C:\Users\yjm12\Desktop\혜룡\공부\2018_NetworkGame_MapleStory\MapleStory\Client\Player.cpp(873,12): warning C4553:  '==': 식의 결과가 사용되지 않습니다. '='을(를) 의도했습니까?
+C:\Users\yjm12\Desktop\혜룡\공부\2018_NetworkGame_MapleStory\MapleStory\Client\Result.cpp(35,23): warning C4244:  '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\yjm12\Desktop\혜룡\공부\2018_NetworkGame_MapleStory\MapleStory\Client\Result.cpp(36,24): warning C4244:  '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\yjm12\Desktop\혜룡\공부\2018_NetworkGame_MapleStory\MapleStory\Client\Result.cpp(37,25): warning C4244:  '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\yjm12\Desktop\혜룡\공부\2018_NetworkGame_MapleStory\MapleStory\Client\Result.cpp(38,22): warning C4244:  '=': 'float'에서 'LONG'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\yjm12\Desktop\혜룡\공부\2018_NetworkGame_MapleStory\MapleStory\Client\Result.cpp(47,20): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\yjm12\Desktop\혜룡\공부\2018_NetworkGame_MapleStory\MapleStory\Client\Result.cpp(96,21): warning C4018:  '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\yjm12\Desktop\혜룡\공부\2018_NetworkGame_MapleStory\MapleStory\Client\Result.cpp(107,1): warning C4996:  'mbstowcs': This function or variable may be unsafe. Consider using mbstowcs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdlib.h(927): message :  'mbstowcs' 선언을 참조하십시오.
+C:\Users\yjm12\Desktop\혜룡\공부\2018_NetworkGame_MapleStory\MapleStory\Client\Result.cpp(116,1): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1774): message :  'sprintf' 선언을 참조하십시오.
+C:\Users\yjm12\Desktop\혜룡\공부\2018_NetworkGame_MapleStory\MapleStory\Client\Result.cpp(119,1): warning C4996:  'mbstowcs': This function or variable may be unsafe. Consider using mbstowcs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdlib.h(927): message :  'mbstowcs' 선언을 참조하십시오.
+C:\Users\yjm12\Desktop\혜룡\공부\2018_NetworkGame_MapleStory\MapleStory\Client\Result.cpp(125,1): warning C4996:  'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1774): message :  'sprintf' 선언을 참조하십시오.
+C:\Users\yjm12\Desktop\혜룡\공부\2018_NetworkGame_MapleStory\MapleStory\Client\Result.cpp(128,1): warning C4996:  'mbstowcs': This function or variable may be unsafe. Consider using mbstowcs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Rope.cpp
+  Scene.cpp
+  SceneMgr.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  SecondFloor.cpp
+  Shoot.cpp
+  Skill.cpp
+  SoundMgr.cpp
+  Stage1.cpp
+  Swing.cpp
+  SwingEffect.cpp
+  ThirdFloor.cpp
+  UI.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdlib.h(927): message :  'mbstowcs' 선언을 참조하십시오.
+C:\Users\yjm12\Desktop\혜룡\공부\2018_NetworkGame_MapleStory\MapleStory\Client\UI.cpp(92,1): warning C4996:  'mbstowcs': This function or variable may be unsafe. Consider using mbstowcs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Wing.cpp
+  코드를 생성하고 있습니다...
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdlib.h(927): message :  'mbstowcs' 선언을 참조하십시오.
+  Client.vcxproj -> C:\Users\yjm12\Desktop\혜룡\공부\2018_NetworkGame_MapleStory\MapleStory\Debug\Client.exe
